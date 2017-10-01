@@ -38,6 +38,7 @@ Submit an assignment the 401 way!
     ```
     node_modules
     DS_Store
+    .vs_code
     ```
     
     * `package.json`

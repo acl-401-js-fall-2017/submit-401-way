@@ -57,6 +57,15 @@ Submit an assignment the 401 way!
       - "8"
     ```
     
+    * `README.md`
+    
+    Project description
+    Contributor
+    Developer
+        * How to get started
+        * How to use API
+    
+    
 1. Repeat until done:
     * Do work
       * Write a test

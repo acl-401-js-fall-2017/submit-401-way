@@ -59,6 +59,7 @@ Submit an assignment the 401 way!
 1. Repeat until done:
     * Do work
       * Write a test
+      * (Commit)
       * Make it pass
       * Commit
       * Improve Code
@@ -67,7 +68,7 @@ Submit an assignment the 401 way!
     * Push to your github fork
     * Repeat
     
-1. Submit PR from `<your repo>/<your branch>` to `<class repo>/<branch-with-your-username>`
+1. Submit PR from `<your repo>/<your branch>` to `<class repo>/<branch-with-your-github-username>`
 1. Verify that PR passes Travis CI
 1. Submit PR Url and (**These are not optional!!!**):
     1. How long did you spend on this assignment?
@@ -76,7 +77,7 @@ Submit an assignment the 401 way!
 
 ### For this assignment
 
-Submit your modularized, tested math library:
+Your modularized, tested math library:
 
 1. Library with tested basic math functions: `add`, `substract`, `multiple`, `divide`, each
 in their own module/file.

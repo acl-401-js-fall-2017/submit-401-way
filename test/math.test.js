@@ -29,7 +29,13 @@ describe('math', () => {
         });
         
         it('returns "Error" when denominator is 0', () => {
-            assert.equal(divide(5,0), 'Error');
+            try{
+                divide(5, 0);
+                assert.fail('expected error not thrown');
+            }
+            catch(err) {
+                assert.equal(err.message, 'Attempt to divide by zero (0)');
+            }
         });
     });
 });

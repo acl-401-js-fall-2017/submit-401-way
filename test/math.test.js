@@ -26,7 +26,7 @@ describe('math', () => {
 
     it('error when divide by zero', () => {
         try {
-            divide(6, 0);
+            divide(6, 2);
             assert.fail('expected error not thrown');
         }
         catch(err) {

@@ -2,6 +2,7 @@ const assert = require('assert');
 const add = require('../lib/add');
 const subtract = require('../lib/subtract');
 const multiplication = require('../lib/multiplication');
+const division = require('../lib/division');
 
 
 describe('math', () => {
@@ -15,5 +16,13 @@ describe('math', () => {
 
   it('multiplies two numbers', () => {
     assert.equal(multiplication(3, 5), 15);
+  });
+
+  it('divides two numbers', () => {
+    assert.equal(division(6, 3), 2);
+  });
+
+  it.skip('error when dividing by zero', () => {
+
   });
 });

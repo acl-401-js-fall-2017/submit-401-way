@@ -22,7 +22,12 @@ describe('math', () => {
     });
 
     it('error when dividing by zero', () => {
-        
+        try {
+            divide(5,0);
+            assert.fail('expected error not thrown');
+        } catch (err) {
+            assert.equal(err.message, 'dont divide by 0');
+        }
     });
 
 

@@ -14,7 +14,7 @@ module.exports = {
     },
 
     divide : (x, y) => {
-        if (y === 0) throw new Error('shouldn\'t devide by 0'); 
+        if (y === 0) throw new Error('Attempt to divide by zero (0)'); 
         return x / y;
     }
     

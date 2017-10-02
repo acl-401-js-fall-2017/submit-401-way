@@ -26,11 +26,11 @@ describe('math', () => {
 
     it('error when divide by zero', () => {
         try {
-            divide(6, 2);
+            divide(6, 0);
             assert.fail('expected error not thrown');
         }
         catch(err) {
-            assert.equal(err.essage, 'Attempt to divide by zero (0)')
+            assert.equal(err.message, 'Attempt to divide by zero (0)');
         }
     });
 });

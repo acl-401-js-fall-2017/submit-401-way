@@ -1,6 +1,8 @@
 const assert = require('assert');
 const add = require('../lib/add');
 const subtract = require('../lib/subtract');
+const multiplication = require('../lib/multiplication');
+
 
 describe('math', () => {
   it('adds two numbers', () => {
@@ -9,5 +11,9 @@ describe('math', () => {
 
   it('subtracts two numbers', () => {
     assert.equal(subtract(5, 2), 3);
+  });
+
+  it('multiplies two numbers', () => {
+    assert.equal(multiplication(3, 5), 15);
   });
 });

@@ -17,5 +17,15 @@ describe('math', () => {
     it('divides two numbers', () => {
         assert.equal(divide(10,2),5);
     });
+    it('error when dividing by 0', () =>{
+        try{
+            divide(6, 0);
+            assert.fail('expected error not thrown');
+        }
+        catch(err){
+            assert.equal(err.message, 'Attempt to divide by zero (0)');
+        }
+
+    })
 });
 

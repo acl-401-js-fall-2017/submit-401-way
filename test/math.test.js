@@ -9,15 +9,15 @@ describe( 'math', () => {
         assert.equal(add( 5, 2 ), 7 );
     });
 
-    it.skip('subtracts two numbers', () => {
+    it('subtracts two numbers', () => {
         assert.equal(subtract( 6, 1 ), 5 );
     });
 
-    it.skip('multiplies two numbers', () => {
+    it('multiplies two numbers', () => {
         assert.equal(multiply( 3, 7 ), 21);
     });
 
-    it.skip( 'divides two numbers', () => {
+    it( 'divides two numbers', () => {
         assert.equal(divide(6, 2), 3);
     });
 

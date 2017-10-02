@@ -23,6 +23,12 @@ describe('math', () => {
   });
 
   it.skip('error when dividing by zero', () => {
-
+    try {
+      divide (6/0);
+      assert.fail('expected error not thrown');
+    }
+    catch(err) {
+      assert.equal(err.message, 'Attempt to divide by zero');
+    }
   });
 });

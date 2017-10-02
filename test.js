@@ -29,8 +29,6 @@ describe('math', function() {
         it('should return a result of division', function() {
             expect(math.divide(15,5)).to.equal(3);
             expect(function () {math.divide(15,0);}).to.throw();
-        });
-        
+        });  
     });
-
 });

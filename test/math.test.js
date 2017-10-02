@@ -19,6 +19,6 @@ describe('math', () => {
         assert.equal(divide(6, 2), 3);
     });
     it.skip('error when dividing by zero', () => {
-        
+        throw new Error('Attempt to divide by zero (0)');
     });
 });

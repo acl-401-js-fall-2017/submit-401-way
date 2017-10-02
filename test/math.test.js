@@ -16,11 +16,6 @@ describe ('math', () => {
     });
     it('divides two functions', ()=> {
         assert.equal(divide(15, 5),3);
-        try { 
-            assert.equal(divide(15, 0),0);
-        } catch(e) {
-            console.log(e);
-        }
 
     });
     it('divides by 0', ()=> {

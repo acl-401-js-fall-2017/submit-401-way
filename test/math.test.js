@@ -22,9 +22,9 @@ describe('math', () => {
     assert.equal(division(6, 3), 2);
   });
 
-  it.skip('error when dividing by zero', () => {
+  it('error when dividing by zero', () => {
     try {
-      divide (6/0);
+      division (6, 0);
       assert.fail('expected error not thrown');
     }
     catch(err) {
